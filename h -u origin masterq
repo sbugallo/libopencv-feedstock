@@ -1,0 +1,2175 @@
+[33mcommit 77e01d69a4e6eac2c9533d8ceadc52634ee6216d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: sbugallo <sbugallo@gradiant.org>
+Date:   Thu Jan 9 12:28:24 2020 +0100
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2020.01.08
+
+[33mcommit a42ad488e63bad72a043b26788790e8963a045ef[m
+Merge: 0abd2c9 819b50c
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 23 21:46:56 2019 -0500
+
+    Merge pull request #208 from regro-cf-autotick-bot/4.2.0
+    
+    opencv v4.2.0
+
+[33mcommit 819b50caf37c87751e72f793c8382e26c955d135[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 24 01:45:31 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.5, and conda-forge-pinning 2019.12.18
+
+[33mcommit c44cc0c240eb54a688e0b568ce8aa4a189270a22[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Dec 24 01:45:07 2019 +0000
+
+    updated v4.2.0
+
+[33mcommit 0abd2c97ddb6194d178ade76765fa2c1e2dcaedc[m
+Merge: f3a3ef9 ab025e3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Nov 22 17:52:55 2019 -0300
+
+    Merge pull request #204 from hmaarrfk/fixup_py_opencv_pinning
+    
+    Fixup py opencv pinning
+
+[33mcommit ab025e3570ab886a21607f734823273df0a99d1a[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Nov 22 14:07:27 2019 -0500
+
+    Update meta.yaml
+
+[33mcommit 36d2dcb8672b943633dd1e36f83fc9fc584c72b2[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Nov 22 11:06:52 2019 -0800
+
+    Apply suggestions from code review
+
+[33mcommit 247ae292d59503ad83132e508c7a9b136716c90f[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Nov 22 11:06:17 2019 -0800
+
+    Apply suggestions from code review
+
+[33mcommit 23040fef0ea90b487b8cc37b7da4189d89d69b0c[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Nov 22 13:59:54 2019 -0500
+
+    Recreate build string correctly
+
+[33mcommit 1740aee886aac79e9ebec494ed1843a59fe11b75[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Nov 22 13:57:22 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.20
+
+[33mcommit 6b20881d5bbae49b27236ae54ec26b77030fc1ac[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Nov 22 13:55:38 2019 -0500
+
+    Force adding a build string to the packages that don't have one
+
+[33mcommit 4737de153555df26d33d376224c6440057346649[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Nov 22 13:06:27 2019 -0500
+
+    Bump build number
+
+[33mcommit 31ca6e38b0e6f564ab01005f83a1b69ad41d147a[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Nov 22 13:06:08 2019 -0500
+
+    Add run constrained requirements on packages
+
+[33mcommit f3a3ef99e21cc65283b76250c52f7731294d6732[m
+Merge: 9b6581f 67975e3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Nov 20 11:01:27 2019 -0300
+
+    Rebuild for libtiff-4.1.0 (#203)
+    
+    Rebuild for libtiff-4.1.0
+
+[33mcommit 67975e30b1cf9651185b7413552a29c3530a7275[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 19 17:26:56 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.2, and conda-forge-pinning 2019.11.18
+
+[33mcommit e702765719175e599a4e58da1d66f2558caac478[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Nov 19 17:26:31 2019 +0000
+
+    bump build number
+
+[33mcommit 9b6581f1b5302e4d0ad819c55287cf82207a5bbc[m
+Merge: 8f3fb73 18c1575
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Nov 5 17:37:47 2019 -0800
+
+    Merge pull request #197 from regro-cf-autotick-bot/rebuild-python3801
+    
+    Rebuild for python38
+
+[33mcommit 18c1575c8eda22177712854afa3554af2bcdd74a[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Nov 5 19:13:19 2019 -0500
+
+    add a space for bash 3.7
+
+[33mcommit bff6100d99a96843f4f4e1fa119856f7f94877a2[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Nov 5 16:43:03 2019 -0500
+
+    Update build.sh
+
+[33mcommit 0dc3b44a1108c056cb24893ac69a505e5a2eb715[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Nov 5 07:24:57 2019 -0500
+
+    remove m, only python 3.8 will work
+
+[33mcommit a4af0024c0de19c02faf101e1669cc4a9d7ff266[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 22:30:59 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.11, conda-smithy 3.6.1, and conda-forge-pinning 2019.11.01
+
+[33mcommit 2eb3f13cc9be09b0b2a88a1736f24a101e8d7404[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sun Nov 3 22:30:34 2019 +0000
+
+    bump build number
+
+[33mcommit 8f3fb731ddd1de1b714aea727e33202de30acfa6[m
+Merge: 4079742 3d632e1
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Oct 16 22:56:45 2019 -0400
+
+    Merge pull request #194 from regro-cf-autotick-bot/4.1.2
+    
+    opencv v4.1.2
+
+[33mcommit 3d632e1ff9e5cb7cd120e3a0c2bf185ccda777b0[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Oct 16 21:10:31 2019 -0400
+
+    Update meta.yaml
+
+[33mcommit f741ec87caa1dee49efb613031d7ca9297553298[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Oct 16 14:16:44 2019 +0000
+
+    updated v4.1.2
+
+[33mcommit 407974226813fbe2c176dd4f1e9fa117ed17025e[m
+Merge: 50fae3b 31ef5f6
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Oct 15 10:16:44 2019 -0400
+
+    Merge pull request #192 from regro-cf-autotick-bot/rebuildffmpeg4101
+    
+    Rebuild for ffmpeg41
+
+[33mcommit 31ef5f6ad05f5dd6626b1b7309119c5385d8209c[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Oct 15 08:14:41 2019 -0400
+
+    trigger build
+
+[33mcommit 19517b52915444650e6df76b5d846036f17495a3[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Oct 15 01:42:50 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+[33mcommit 58cb44457405b2859c65aac977ebb02aeb10aefa[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Oct 14 21:41:00 2019 -0400
+
+    try compiling with 5.12.1
+
+[33mcommit 931a87435b71656687443767f8ff0246b288eb42[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Oct 14 13:28:54 2019 -0400
+
+    Update meta.yaml
+
+[33mcommit 20c76f59b5142581915efee6054bfbb90d2cf000[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Mon Oct 14 17:03:00 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+[33mcommit 8e0b27ccbd5884a642430d8993449225fd3e1be1[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Oct 14 13:01:23 2019 -0400
+
+    remove ffmpeg pinning
+
+[33mcommit 7dcee04eed8c848896b12aaa8d9a80ec6d73700f[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Oct 14 16:20:48 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+[33mcommit 946f4a8105ef203d10c8e59976238c90535df854[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Oct 14 16:20:23 2019 +0000
+
+    bump build number
+
+[33mcommit 50fae3b73409425cbf3925e8ae1942868c225107[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Fri Sep 6 18:27:10 2019 -0500
+
+    [ci skip] ***NO_CI*** Move from appveyor to azure.
+    
+    See https://github.com/conda-forge/conda-forge.github.io/issues/857
+
+[33mcommit a2720c4b82dc7c83e4574178d3e744653988d759[m
+Merge: 5371f28 5e4ad7c
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Sep 3 23:10:23 2019 -0400
+
+    Merge pull request #185 from hmaarrfk/optional_python
+    
+    split packages for opencv
+
+[33mcommit 5e4ad7c85078a85879de61547e24b1bbb2d2b98c[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Sep 2 10:47:49 2019 -0400
+
+    trigger build
+
+[33mcommit f652eb037b6358033629711c72654c4d1b009b8e[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Aug 11 19:42:30 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.11
+
+[33mcommit 45d128a27768eee321c7d88eb878ac3787ab8230[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Aug 11 15:38:29 2019 -0400
+
+    Remove pin on python package
+
+[33mcommit 05def46fefe78175a0f941eadefa8f3f0d5a4462[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Aug 11 14:35:30 2019 -0400
+
+    Fixup windows tests again
+
+[33mcommit feaf0a55e3904b8bfcdc4414654556052f0c094a[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Aug 11 13:38:36 2019 -0400
+
+    Typo for windows
+
+[33mcommit 06b6352b3f5427058ad1b626b26a3b2b2526c4d7[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Aug 11 11:15:59 2019 -0400
+
+    Change the test name
+
+[33mcommit 8c5c85b1daf7c8eddf8c5f94f23510d4b257138b[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Aug 11 10:28:35 2019 -0400
+
+    split packages for opencv
+
+[33mcommit 5371f28b8dbdcdc4322d00f73bf798e8b1f3c142[m
+Merge: 2118269 c7e4367
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Aug 10 12:33:48 2019 -0400
+
+    Merge pull request #181 from regro-cf-autotick-bot/rebuildqt-5.120
+    
+    Rebuild for qt-5.12
+
+[33mcommit c7e4367c6879bb2fff8de250a6a4e830dad5df7e[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Aug 10 10:47:17 2019 -0400
+
+    Update meta.yaml
+
+[33mcommit 1d2f204e0adac9edd78b5724e7d715bb51796272[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Aug 10 13:53:45 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.09
+
+[33mcommit 5f454c70e17b5a325e5d25e3115a7b5c3422df3c[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Aug 9 11:09:02 2019 -0400
+
+    Update meta.yaml
+
+[33mcommit f65cd9e2c287f5ef8460661b03f625996f5443c4[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 8 18:35:53 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.08.08
+
+[33mcommit 25c565ae466d5d89f26c41edbb791ba4adbd9927[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 8 18:35:38 2019 +0000
+
+    bump build number
+
+[33mcommit 21182690f4b841994cd5053d7e4bfb0df416ecfc[m
+Merge: d9a4c64 f0907b1
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Aug 7 18:10:22 2019 -0300
+
+    Merge pull request #176 from hmaarrfk/freetype_pinning
+    
+    Freetype pinning
+
+[33mcommit f0907b10102236162d28dc8110b1f8a0b0547594[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Aug 7 15:54:46 2019 -0400
+
+    bumb number
+
+[33mcommit 33fcf4d4621baa8db40a46f10948b311c6e30d5f[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Aug 4 17:28:10 2019 -0400
+
+    Update meta.yaml
+
+[33mcommit 7bbc6a93e9c85c84fa587e77f7ee63fe94d8dc61[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Aug 3 11:46:53 2019 -0400
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.26
+
+[33mcommit 1ff98309237e7ce35ef611e6668c3d45ef3c22ba[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Aug 3 11:44:28 2019 -0400
+
+    Manage freetype pinning for osx
+
+[33mcommit d9a4c64a6ea2a82a1d685e4e3e319614063b8b60[m
+Merge: dd3fe1e 7198c7c
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Jul 30 18:06:12 2019 -0400
+
+    Merge pull request #173 from mshabunin/opencv411
+    
+    Fixes for OpenCV 4.1.1
+
+[33mcommit 7198c7c79f6889811734c2809ce56bcfcc230291[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Fri Jul 26 15:39:17 2019 +0300
+
+    Added fix for V4L build
+
+[33mcommit af229cec9bf47754e0f12b7bce0931f73f5a3d85[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Fri Jul 26 13:24:45 2019 +0300
+
+    Disabled PCH files
+
+[33mcommit 2cf5ad0974a84a698cebbe3cf7c25661d2d282f2[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Fri Jul 26 12:30:18 2019 +0300
+
+    Removed obsolete patches
+
+[33mcommit 1f596d88cd57127dcc0c7ba14b0b7a927716c49a[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 26 06:26:06 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.9, conda-smithy 3.4.1, and conda-forge-pinning 2019.07.23
+
+[33mcommit b8616af3913cc5fec2f310fecb1da1c499ef72f5[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 26 06:25:42 2019 +0000
+
+    updated v4.1.1
+
+[33mcommit dd3fe1ef9d317fd118e1919c6e757e3ca79d1e74[m
+Merge: 03ae6ba 6e6aeb9
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Jul 22 17:09:09 2019 -0400
+
+    Merge pull request #171 from mshabunin/fix-windows-cmake
+    
+    Changed Windows installation layout to fix cmake issues
+
+[33mcommit 6e6aeb93f75df1c3766e8714fa8dd671047029bd[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Mon Jul 22 13:57:36 2019 +0300
+
+    Omit explicit setting of OpenCV_DIR in cmake test
+
+[33mcommit 9c4a3894ae2c1c957f0197c38f93763981d40ce2[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Jul 19 18:57:10 2019 -0400
+
+    move test.cpp to the testing section.
+
+[33mcommit 4bb7753e58550d6ffc255f5dd5ed73f455dcf0cc[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Jul 19 13:06:16 2019 -0400
+
+    Explicitely include the necessary file in the test section
+
+[33mcommit ee2609d06ebe9830e6e99c97c7ab3370ac5c156d[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Jul 19 12:00:05 2019 -0400
+
+    Update meta.yaml
+
+[33mcommit a7cdf388a494f5d43bf4f6c3fb62afe8dc7b97a1[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Jul 19 11:59:44 2019 -0400
+
+    Update meta.yaml
+
+[33mcommit 6fc4853be352b6f26f01d93356b6cfe2a2b0ece5[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Fri Jul 19 17:31:49 2019 +0300
+
+    fixup! Added cmake building test (all platforms)
+
+[33mcommit 46bfc252ccaf2a3ce9403424ec6b282dc0c14dab[m
+Merge: 2c109fc 72fc236
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Fri Jul 19 12:52:19 2019 +0300
+
+    Merge branch 'fix-windows-cmake' of github.com:mshabunin/opencv-feedstock into fix-windows-cmake
+
+[33mcommit 2c109fc5433213a657f1ec9c1e902f360961f05c[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Fri Jul 19 12:43:27 2019 +0300
+
+    fixup! Added cmake building test (all platforms)
+
+[33mcommit 72fc236a53b17b44f1814d2d9e3c9d2918aafd1b[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Jul 18 23:41:40 2019 -0400
+
+    cmake_minimum_required typo
+
+[33mcommit 74e56b189c3ab41ae24f9982f306db3c27ea392a[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Thu Jul 18 18:34:10 2019 +0300
+
+    Added cmake building test (all platforms)
+
+[33mcommit 27d3788e146ce0f04d3a9af309ac65c482756f7a[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Thu Jul 18 13:04:19 2019 +0300
+
+    Changed Windows installation layout to fix cmake issues
+
+[33mcommit 03ae6ba281002a4f2ed79196280732fe2fe7355a[m
+Merge: 43206a7 affa850
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Jul 11 01:00:06 2019 -0500
+
+    Merge pull request #169 from conda-forge-linter/conda_forge_admin_168
+    
+    MNT: rerender
+
+[33mcommit affa850cb8c05f94f2e206eed50570f824857698[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Jul 11 04:15:59 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.4.0, and conda-forge-pinning 2019.07.10
+
+[33mcommit 43206a7883515642daad3cb852e4ce22c16dea38[m
+Merge: c9276f7 e084932
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Jun 6 08:51:50 2019 -0400
+
+    Merge pull request #164 from regro-cf-autotick-bot/rebuildhdf5-1.10.50
+    
+    Rebuild for hdf5-1.10.5
+
+[33mcommit e08493245e87d73819ba5b43e5c805a090a0478d[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jun 6 02:35:05 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.2, conda-smithy 3.3.6, and conda-forge-pinning 2019.06.05
+
+[33mcommit f812516a77f013c184b12fc57fa6aa8b490ee5af[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Jun 6 02:34:50 2019 +0000
+
+    bump build number
+
+[33mcommit c9276f7bdb2713224e7574e1f56300132702eb63[m
+Merge: eb30e54 f42d0f9
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun May 26 17:25:43 2019 -0400
+
+    Merge pull request #163 from mshabunin/add-config-verification
+    
+    Enable config verification and fix compilation with lapack
+
+[33mcommit f42d0f9191967a621da639afe7c2da4e672443b4[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun May 26 19:07:16 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.05.26
+
+[33mcommit f7acf1c6d56fd4f0ec5be175feff3d14ae462e24[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Thu May 23 13:31:20 2019 +0300
+
+    Tune download parameters more
+
+[33mcommit 5cd7978d30bee16638e3acb58aec9f11f034800f[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed May 22 23:31:50 2019 -0400
+
+    trigger build
+
+[33mcommit 18adb6789589d6396a8cfa533bffb574094f76e3[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Wed May 8 12:29:16 2019 +0300
+
+    Enable config verification, fix LAPACK support, added download fixes
+
+[33mcommit eb30e54a993bbb49c46231882c94794559f5a0bb[m
+Merge: fb478f0 bfa4ab6
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat May 11 10:27:01 2019 -0400
+
+    Merge pull request #161 from mshabunin/enable-v4l
+    
+    Enable V4L videoio backend on Linux
+
+[33mcommit bfa4ab654060ba1bdef3c081792648028bc81e35[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed May 8 20:14:12 2019 -0400
+
+    Remove the test for the test.
+
+[33mcommit 2145a910e9caed78c54a017e2d95ebce10225412[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed May 8 08:11:08 2019 -0400
+
+    fixup V4L test
+
+[33mcommit 0933601b6b352d627839dbf6dbcc8b47c47af087[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed May 8 07:05:24 2019 -0400
+
+    add a run time test for CAP_V4L
+
+[33mcommit 79c7f0d81571dfa285588801f68d5609be8f440a[m
+Merge: 7ad14c1 fb478f0
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue May 7 15:56:45 2019 -0500
+
+    Merge branch 'master' into enable-v4l
+
+[33mcommit 7ad14c1472af13862a155c4fdd20a78dc6dcc63f[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue May 7 16:56:25 2019 -0400
+
+    bump version number from 2 to 3
+
+[33mcommit fb478f0bb7392b93dd4aa94bc859b10660b19c77[m
+Merge: 90416df 8a051f1
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue May 7 11:10:20 2019 -0400
+
+    Merge pull request #160 from hmaarrfk/qt_5.9_again
+    
+    Qt 5.9 again
+
+[33mcommit 3f973e91b76625a24947362e6d274fa769459a63[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Apr 30 09:04:18 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.04.25
+
+[33mcommit 2d55a1d523d1ba43f96b44a41712e8607921f6cc[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Mon Apr 29 18:31:43 2019 +0300
+
+    fixup! Enable V4L videoio backend on Linux
+
+[33mcommit 7ecee6099c069e05252bf62ae28a5dbc388470fa[m
+Author: Maksim Shabunin <maksim.shabunin@gmail.com>
+Date:   Mon Apr 29 17:41:30 2019 +0300
+
+    Enable V4L videoio backend on Linux
+
+[33mcommit 8a051f1987f20c39dd16fb467609b89794576456[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Apr 28 04:42:51 2019 -0400
+
+    Bump build number
+
+[33mcommit be10a5e31ec075cd4f1720e526b5a787840627b1[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Apr 28 04:42:37 2019 -0400
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.4, and conda-forge-pinning 2019.04.25
+
+[33mcommit 90416df91ec0a5a42257732ea68f9e2b57570ad2[m
+Merge: baae17b 649782b
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Apr 25 19:09:23 2019 -0400
+
+    Merge pull request #156 from regro-cf-autotick-bot/rebuildqt-5.9.70
+    
+    Rebuild for qt-5.9.7
+
+[33mcommit 649782b703b7bb126871cfbc882aa200b695d85f[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 25 20:34:26 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.3, and conda-forge-pinning 2019.04.24
+
+[33mcommit 8b6c616333364961780a9599ca2749ea1297e1e0[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 25 20:34:11 2019 +0000
+
+    bump build number
+
+[33mcommit baae17b2a2cebe1496ec045365ca97b21e144a8d[m
+Merge: 9b1cf35 6acd146
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Apr 8 18:30:11 2019 -0400
+
+    Merge pull request #153 from regro-cf-autotick-bot/4.1.0
+    
+    opencv v4.1.0
+
+[33mcommit 6acd146b55b1ded8c0b2a379ff8762d2a8c097da[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Apr 8 08:29:13 2019 +0000
+
+    updated v4.1.0
+
+[33mcommit 9b1cf356b5eb9f00e02d09eda91710e991433ee1[m
+Merge: 79aff41 6a6b353
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Thu Mar 28 17:03:57 2019 -0500
+
+    Merge pull request #152 from regro-cf-autotick-bot/rebuildblas20
+    
+    Rebuild for new BLAS scheme
+
+[33mcommit 6a6b353b5579f08654fdff5e01ca0922f85dbbb4[m
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 19 19:44:41 2019 -0500
+
+    WITH_LAPACK=1
+
+[33mcommit 67b2c1855c1e70afc803ed8c06cac9f9016c649a[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Mar 19 21:13:02 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.0, and conda-forge-pinning 2019.03.17
+
+[33mcommit b329fdc70a31b3cd229a3a0f574000d845ea3896[m
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 19 16:12:00 2019 -0500
+
+    Specify lapack libraries
+
+[33mcommit b26c609fdf7e0295378ae7e1ed3f47aa57a25a70[m
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 19 16:10:57 2019 -0500
+
+    Add lapack back in
+
+[33mcommit fc05101033571a1952069044f3cdb17d68128e2a[m
+Author: Isuru Fernando <isuruf@gmail.com>
+Date:   Tue Mar 19 00:04:39 2019 -0500
+
+    BLAS is not used
+
+[33mcommit cac13fc50af57e98acacca677aa169a2a98fd900[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 19 00:30:30 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.03.17
+
+[33mcommit 7750d20bb7f3d71baa400eb36a6b013baad374da[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Mar 19 00:30:14 2019 +0000
+
+    Rebuild for new BLAS scheme
+
+[33mcommit 79aff413fdcad0f60e11b084f8d70e21e36a65c9[m
+Merge: 5b573a9 b828d17
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Mar 9 01:22:18 2019 -0500
+
+    Merge pull request #150 from hmaarrfk/4.0.1
+    
+    Bump to 4.0.1
+
+[33mcommit b828d17525cab9b20f0884eee531ee4e091a77d2[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Mar 8 23:14:20 2019 -0500
+
+    Bump to 4.0.1
+
+[33mcommit 5b573a90846ec49aa8b06a9efa31fcfa96552785[m
+Merge: d5036d8 dbabe1d
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Mar 8 23:10:38 2019 -0500
+
+    Merge pull request #138 from regro-cf-autotick-bot/4.0.0
+    
+    opencv v4.0.0
+
+[33mcommit dbabe1d0c1f5b46b93317fbcd4ce71a9ee204aa1[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 17 20:55:51 2018 -0500
+
+    Actually add the patch
+
+[33mcommit 2f376a9d3396411ae4069f6d516a388067f36968[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 17 20:44:34 2018 -0500
+
+    Add a necessary build patch
+
+[33mcommit be42f5de05d4f560024b0e66a0105024b135119c[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 17 20:21:12 2018 -0500
+
+    Small updates to test.cpp and build number
+
+[33mcommit 63af885cbc5d13ef048e17196c51786e0508e46a[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 17 19:47:21 2018 -0500
+
+    Update the build script to std c++11 and include pkg-config files
+
+[33mcommit 93b15e4037da21a51055d31446e188632f6af588[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 17 19:45:11 2018 -0500
+
+    Remove the build fix patch for 3.4.4
+
+[33mcommit ff4f7dd543bdd696ccfbde811e499fd3c59b4c1d[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Mon Dec 17 21:14:41 2018 +0000
+
+    updated v4.0.0
+
+[33mcommit d5036d86e9385dd6e6d0196636b7a13f05314b94[m
+Merge: ed5d7c3 b8e89d4
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Feb 24 00:57:07 2019 -0500
+
+    Merge pull request #148 from hmaarrfk/build_bump
+    
+    Bump build number for #147
+
+[33mcommit b8e89d4725dd225f1d333f7b21d7c3ae753e1733[m
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Feb 23 16:07:44 2019 -0500
+
+    whoops
+
+[33mcommit c2fe59093c913cca4615600029b9de3ec4db0c14[m
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Feb 23 15:45:54 2019 -0500
+
+    Update meta.yaml
+
+[33mcommit 7a20aa54449443b5aa4056733995cd1817fb29d5[m
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Sat Feb 23 15:23:40 2019 -0500
+
+    Update meta.yaml
+
+[33mcommit 61106048459b5001500d9485ed3c8e623b3b3edd[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Feb 23 13:55:03 2019 -0500
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.2.14, and conda-forge-pinning 2019.02.21
+
+[33mcommit 27cad57e014cd580a41e2710a3ef3c711208de73[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Feb 21 23:07:42 2019 -0500
+
+    Add yum requirements
+
+[33mcommit 9812b1a610e2e2ff327f33caeb732788328f476c[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Feb 21 22:24:05 2019 -0500
+
+    Bump build number
+
+[33mcommit ed5d7c336e536bb7082308de2214300089f17174[m
+Merge: ab94e6a 37f7e0d
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Dec 30 23:20:53 2018 -0500
+
+    Merge pull request #144 from jakirkham-feedstocks/use_ninja
+    
+    Use Ninja
+
+[33mcommit 37f7e0d8b955146cd92cde68c56d6f6dbea25ba6[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Dec 30 21:45:59 2018 -0500
+
+    Bump build number to 1203                         [ci skip]
+    
+    Generate new packages now that we are using Ninja to build them.
+
+[33mcommit 1f46b7c469a7565023876e6d2095a665f859a450[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Dec 30 20:01:01 2018 -0500
+
+    Lower case build target in `bld.bat`
+    
+    Appears Ninja is case sensitive so it doesn't recognize the target.
+    Lower casing as we have done here should use the correct case sensitive
+    target name.
+
+[33mcommit b5338a4f65d47ce28a0463928d50c3658810f48b[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Dec 30 19:43:40 2018 -0500
+
+    Start using Ninja to build on Windows
+    
+    As NMake Makefiles on Windows cannot be parallelized whereas Ninja
+    builds can (and do so automatically), switch to using Ninja to perform
+    Windows builds to speed them up a bit.
+
+[33mcommit 8b8679facbcbf4bbff07d8ab0ed8e917e99f5fcc[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Dec 30 19:43:39 2018 -0500
+
+    Use Ninja to build on Unix
+    
+    As we are having trouble getting some of the builds on macOS to complete
+    within Travis CI's time limit, try switching to Ninja to do the builds
+    to speed things up.
+
+[33mcommit a0a0b58f1ba6ab7701e0cb7b74c87d1366e3d6a6[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Dec 30 19:42:22 2018 -0500
+
+    Require `ninja` for the builds
+    
+    In preparation for switching all builds to Ninja, add it as a build
+    requirement. Drop `make` as it is no longer needed after this switch.
+
+[33mcommit ab94e6a34eb92721e168e0337c0d2d02c9f69dc1[m
+Merge: 6ff9468 561fcc9
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Dec 30 05:05:36 2018 -0500
+
+    Merge pull request #142 from regro-cf-autotick-bot/rebuild
+    
+    Rebuild for Python 3.7, GCC 7, R 3.5.1, openBLAS 0.3.2
+
+[33mcommit 561fcc9e3be49fed519b2e94e94f00d771b10a28[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Dec 30 05:03:23 2018 -0500
+
+    Bump build number to 1202                         [ci skip]
+    
+    Rebuild the package now that a few things about the build have changed
+    (e.g. the pinnings). This way new packages can be produced even for the
+    legacy compilers.
+
+[33mcommit 834e4a1bede1aa5f6433716089d2d6bb75f9ab40[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Dec 30 03:52:10 2018 -0500
+
+    Set extra compiler environment variables as needed
+
+[33mcommit 8287a0b9662022eec00e0b824ca10cbb07307051[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Dec 29 04:21:20 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.28
+
+[33mcommit 55db1a40c8ee02235af8d23344152e1dbd8a8448[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 22:20:18 2018 -0500
+
+    Use `CXX` for C++ compilation
+    
+    As the C++ compiler's name and path may vary, use the `CXX` environment
+    variable to specify the compiler when building the C++ code.
+
+[33mcommit 4697eb228af8bd0650c1288320fe88c636cc5898[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 22:19:17 2018 -0500
+
+    Require compilers for the tests
+    
+    As some of the tests involve compiling code, add the C/C++ compilers as
+    requirements.
+
+[33mcommit eb0e8cd781c469818c376448f3e32582eadac0f7[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 21:19:33 2018 -0500
+
+    Require mesa-dri-drivers CDT for mesa-libgl-devel
+    
+    Needed due to the linkage to `libglapi`.
+    
+    ref: https://circleci.com/gh/conda-forge/opencv-feedstock/551
+
+[33mcommit a8736baca92caf8125f2c4598b27f17ab996ec38[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 21:18:32 2018 -0500
+
+    Require `libselinux` CDT for `mesa-libgl-devel`
+    
+    ref: https://circleci.com/gh/conda-forge/opencv-feedstock/551
+
+[33mcommit f7305c6c2ab253bd8e614a1e86265818d396882b[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 21:17:55 2018 -0500
+
+    Require `libxdamage` CDT for `mesa-libgl-devel`
+    
+    ref: https://circleci.com/gh/conda-forge/opencv-feedstock/551
+
+[33mcommit bc239b2384f3f3493d68fde71bb77ccd9cc44ce5[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 21:17:46 2018 -0500
+
+    Require `libxfixes` CDT for `mesa-libgl-devel`
+    
+    ref: https://circleci.com/gh/conda-forge/opencv-feedstock/551
+
+[33mcommit 0a827d3468c33098279e70198c5217908ac703f0[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 20:53:11 2018 -0500
+
+    Require `libxxf86vm` CDT for `mesa-libgl-devel`
+    
+    ref: https://circleci.com/gh/conda-forge/opencv-feedstock/538
+
+[33mcommit 40c8d7a24865d74c30576396dc78d102553fbf93[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 20:11:26 2018 -0500
+
+    Try requiring Mesa's libGL as a CDT
+    
+    This appears to be how Qt is handling libGL. Plus we seem to be getting
+    linkage errors without it (example build log linked below). Not sure if
+    we need Mesa's DRI drivers too. So just start with libGL. It's easy to
+    add them later if they are required.
+    
+    ref: https://circleci.com/gh/conda-forge/opencv-feedstock/525
+
+[33mcommit feb32aba979bc6209cca6bf5a24a3340c3187330[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 20:11:11 2018 -0500
+
+    Space out selectors a bit more
+
+[33mcommit 64a14328605cbafe7f76e7475af7dcbb11f49c4d[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Dec 28 20:07:45 2018 -0500
+
+    Drop `DYNAMIC_EXT`
+    
+    This has been replaced by usage of `SHLIB_EXT`. As it is now unused,
+    drop setting it.
+
+[33mcommit 58f88c6d3bdecca56dd450ddb51f69c9aacdc094[m
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Dec 28 18:59:17 2018 -0500
+
+    try to add rpath-link to ld
+
+[33mcommit 4f5d3f85f9b1a31f7574e3489f0fc36cfa6d243b[m
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Dec 28 18:39:05 2018 -0500
+
+    fix build.sh
+
+[33mcommit e5350c2bbbaf2fbc9dbfd1eef7d8c580a48fdbb2[m
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Dec 28 18:22:35 2018 -0500
+
+    Moved pins a bit forward?
+
+[33mcommit 462872a1bdb00585ab045782e8fd31020219f3ef[m
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Dec 28 17:58:31 2018 -0500
+
+    Be explicit about linkers
+
+[33mcommit 092cfd4365329de2e8cc6de575742ca1e45c3f35[m
+Author: Marius van Niekerk <marius.v.niekerk@gmail.com>
+Date:   Fri Dec 28 17:13:54 2018 -0500
+
+    Updated build.sh
+
+[33mcommit 230ba1b9cb6c1c5f8bb9ad8d220085a46debc1eb[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Dec 28 16:20:32 2018 -0500
+
+    make the build verbose to debug
+
+[33mcommit 4bf3e9130f7b7a2867c5de728fdbbb7b31a4cbc3[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Dec 28 15:37:17 2018 -0500
+
+    Update build.sh
+
+[33mcommit 7164c005666444e96bd001aaa337154948fbf5fb[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Dec 28 15:10:07 2018 -0500
+
+    specify c++11
+
+[33mcommit 2bac763067a6cdecd5d33b1ffb57c892a7c6adf0[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 28 17:14:41 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.18
+
+[33mcommit 7e94ee724b0e069f9a6c8f6fa3b6b0d83ed11dd0[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Dec 28 17:14:30 2018 +0000
+
+    bump build number
+
+[33mcommit 6ff94681c3e3eae27bca14e96d60e194c559f622[m
+Merge: 8b62f48 b5d3d3f
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Dec 18 18:26:00 2018 -0500
+
+    Merge pull request #140 from hmaarrfk/fix_omp_threads
+    
+    add a patch to fix openmp bug in opencv
+
+[33mcommit b5d3d3f925a4c3b6c8dfa6202b168b4032c25c26[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Dec 18 17:20:32 2018 -0500
+
+    add a patch to fix openmp bug in opencv
+
+[33mcommit 8b62f48f2b79d2e51f8f0634b1317b3d6fccfa20[m
+Merge: 72a0833 8659e52
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 17 14:24:43 2018 -0500
+
+    Merge pull request #132 from regro-cf-autotick-bot/3.4.4
+    
+    opencv v3.4.4
+
+[33mcommit 8659e52dd2516ccefb8db1784643b3720e603db8[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Dec 17 13:10:10 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 3.2.2 and pinning 2018.12.12
+
+[33mcommit 7917738c7310e7e3652a814a0c73bf88e53a93aa[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Dec 11 11:39:50 2018 -0800
+
+    Try adding AVX to OSX.
+
+[33mcommit 07b7ad85dcfeeb8e4591651c1873565f6259a80b[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Dec 11 11:11:52 2018 -0800
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.11.27
+
+[33mcommit d32c564c9b370fdc9d36d0e01b54093568befc89[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Dec 11 11:11:02 2018 -0800
+
+    Don't compile for AVX instructions with OSX.
+
+[33mcommit 028273185320f0bfb7c00fc0f63e61a3b1b70104[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Dec 11 11:09:31 2018 -0800
+
+    Update recipe for new build system in 3.4.4
+
+[33mcommit 996245f28c71218a31c5344a8ab3be69bbccf697[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Dec 11 11:08:47 2018 -0800
+
+    move tests to meta.yaml to ensure they get printed during testing phase.
+
+[33mcommit 5ac2751b44f5c7e67a539ecab6aa0bea8b2487be[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Tue Dec 11 11:08:27 2018 -0800
+
+    Removed the patches I had added for 3.4.3
+
+[33mcommit da71106e19f9dbc8e522ddf825d4f923793f02d1[m
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Nov 17 13:13:41 2018 +0000
+
+    updated v3.4.4
+
+[33mcommit 72a083302dbca12956bb23bc541bfd79a0dc2082[m
+Merge: e0db5e1 c57ba81
+Author: Andrew Achkar <hajapy@users.noreply.github.com>
+Date:   Mon Oct 8 21:32:59 2018 -0400
+
+    Merge pull request #130 from hmaarrfk/nohdf5
+    
+    MAINT: don't set hdf5_root for unix
+
+[33mcommit c57ba816c3f459563376e559dcfd533e53a7263f[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Oct 7 17:42:03 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.10.03
+
+[33mcommit 7fd7901a530710d5c863eabb541aa1f492b01279[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Thu Sep 27 22:10:25 2018 -0400
+
+    MAINT: don't set hdf5_root for unix
+    
+    Fixes #129
+
+[33mcommit e0db5e113cda3b774eb135b9ef2dd7a9f5d8314a[m
+Merge: ab80523 a544c7b
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Sep 15 20:00:30 2018 -0400
+
+    Merge pull request #125 from hmaarrfk/opencv_v3.4.3
+    
+    Opencv v3.4.3
+
+[33mcommit a544c7b03e54057a29c7cd093a4b481ce59e1dc4[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Wed Sep 12 14:52:15 2018 -0400
+
+    Fix pattern recognition for bayer2rgba
+
+[33mcommit ec86df990a7c007fda25de1419e060ece11440a7[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Mon Sep 10 12:13:40 2018 -0400
+
+    Add m2-patch for windows.
+
+[33mcommit 5f4ce5e3051affec6c28b4102984bd5d3d867415[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sun Sep 9 22:22:16 2018 -0400
+
+    Add hmaarrfk as maintainer
+
+[33mcommit cc35d3743069c36ca0d96e82d40d7a25eae10f9f[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Sep 9 19:42:03 2018 -0400
+
+    Drop Python `pkgconfig` requirement
+    
+    While OpenCV does use the command line build tool `pkg-config`, it does
+    not appear to use the Python wrapper package for it, `pkgconfig`. So
+    drop this requirement from `host`.
+
+[33mcommit b6e9b195c265ed07be517943bc5a3b2c13420e7a[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Sep 8 23:04:33 2018 -0400
+
+    Set the build number to 200
+
+[33mcommit 6caaabe674f1664c496c2e9565a8dd38384ee297[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Sep 8 18:21:53 2018 -0400
+
+    simplified message
+
+[33mcommit 687869d72eeb518cec663ee62e0420c369114cd8[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Sat Sep 8 18:16:08 2018 -0400
+
+    Add pkg-config for unix
+
+[33mcommit bbbc79ad74ddd6c707d952d2319d3364972b9b63[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Sep 7 20:51:57 2018 -0400
+
+    Simply recipe with the changes of 3.4.2
+
+[33mcommit dd3d28831b3d1f29178363724f08ab43504dbc29[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Sep 7 17:28:56 2018 -0400
+
+    fix windows build.
+
+[33mcommit 99cb78d08eca1671d3bc802d34c1ae3b8f263a1e[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Sep 7 16:11:31 2018 -0400
+
+    Update the patch to match upstream [ci-skip] [skip-ci]
+
+[33mcommit adc7d1c2fad412893f28361e6dde4a6a618bebf1[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Sep 7 12:55:03 2018 -0400
+
+    Add my patch for bayer2rgba
+
+[33mcommit 0d79a2a1519e4c138ec8436b277c29fbf290a007[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Sep 7 12:06:47 2018 -0400
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.08.31
+
+[33mcommit 1b266cc944b9ca14580ae136aa65eb2fa956d583[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Sep 7 12:28:48 2018 -0400
+
+    Add license file
+
+[33mcommit ad815b063a3d972c54cdd22e0741239a38fa3fb4[m
+Author: Mark Harfouche <mark.harfouche@gmail.com>
+Date:   Fri Sep 7 11:58:59 2018 -0400
+
+    Updated to 3.4.3
+
+[33mcommit ab805230c083349621c0b0d3c6b5cf92008ca982[m
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 17:04:04 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+[33mcommit 101b315952334f2a5eb28d68a58b980043f76d80[m
+Merge: 5d3aa47 e8e262e
+Author: Andrew Achkar <hajapy@users.noreply.github.com>
+Date:   Thu Aug 2 22:53:52 2018 -0400
+
+    Merge pull request #118 from hajapy/no-gstreamer
+    
+    build without gstreamer
+
+[33mcommit e8e262e3ead3981852be1cdc57a23ba7c476c9ae[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Aug 2 14:17:51 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.10 and pinning 2018.07.24
+
+[33mcommit 58a4f7853af19a44ac74afdba8d7f3775023e4c1[m
+Author: hajapy <hajapy@users.noreply.github.com>
+Date:   Thu Aug 2 10:13:48 2018 -0400
+
+    drop jasper pin in favour of conda-forge-pinning strategy
+
+[33mcommit 190a279a40bb668ce54606554972186df89c939f[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Tue Jul 31 17:04:25 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.8 and pinning 2018.07.24
+
+[33mcommit 4b30a16da52965f55d0cd118df15510cdc5148ac[m
+Author: hajapy <hajapy@users.noreply.github.com>
+Date:   Tue Jul 31 12:57:43 2018 -0400
+
+    build without gstreamer
+
+[33mcommit 5d3aa47c75c678848fc617cb1fb78dff6cd2d528[m
+Merge: 373d1d1 995b880
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jul 24 10:00:06 2018 -0300
+
+    Merge pull request #113 from regro-cf-autotick-bot/compiler_migration2
+    
+    Migrate to Jinja2 compiler syntax
+
+[33mcommit 995b8800106bcbe1545b1a70f2f7725dba3fa54b[m
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jul 24 09:13:36 2018 -0300
+
+    Update meta.yaml
+
+[33mcommit 6fa26a79347af01b585d45157de3b9813501b1b3[m
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Jul 23 19:42:48 2018 -0300
+
+    Update meta.yaml
+
+[33mcommit fe2235dcdae279118a6e3b6325205a3830faba75[m
+Author: Travis CI User <travis@example.org>
+Date:   Mon Jun 25 04:10:52 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.06.19
+
+[33mcommit 8c0e0bd6e154801e91cc990b68f09383206668f2[m
+Author: Travis CI User <travis@example.org>
+Date:   Mon Jun 25 04:10:42 2018 +0000
+
+    migrated to Jinja2 compiler syntax build
+
+[33mcommit 373d1d11adad8fd71c031552d1c06a492a629ece[m
+Merge: f1c6f7f 87d0810
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Mar 10 17:54:33 2018 -0500
+
+    Merge pull request #106 from regro-cf-autotick-bot/3.4.1
+    
+    opencv v3.4.1
+
+[33mcommit 87d08103a2a62504c0f9031b269c4fbbcf32e50a[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Mar 10 16:14:20 2018 -0500
+
+    Template Windows library name with version
+
+[33mcommit 23be47814d819e008bb485fcd8057b8ffe4f61f1[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Mar 10 16:09:51 2018 -0500
+
+    Force install to lib directory
+
+[33mcommit a5a902c95c25ea7e670886a2c22e2ea58966ce58[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Mar 10 16:09:32 2018 -0500
+
+    Swap existing and install prefix order
+
+[33mcommit d6701ffa0f8f2bc186cf29866aa7d39d0d3c0fab[m
+Merge: 2ea1be7 f1c6f7f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 9 18:46:13 2018 -0500
+
+    Merge remote-tracking branch 'conda-forge/master' into 'regro-cf-autotick-bot/3.4.1'
+
+[33mcommit 2ea1be7c2e4a6c242ee5572c051ec937f4a5c6da[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Mar 9 18:45:02 2018 -0500
+
+    Update opencv_contrib checksum
+    
+    As we are on a new version, update the opencv_contrib checksum.
+
+[33mcommit f1c6f7ff8c735b73175fd0be5e078c3e5d511540[m
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Mar 9 20:34:06 2018 -0300
+
+    update pins (#100)
+    
+    * update pins
+    
+    * Bump build number to 204
+    
+    Already have 203 in master, so bump to 204.
+
+[33mcommit b966d9381acb26c926443ec7e6485922f675f5b3[m
+Author: Travis CI User <travis@example.org>
+Date:   Fri Mar 2 01:36:09 2018 +0000
+
+    updated v3.4.1
+
+[33mcommit 8e276db03fb48d1cb2a344fd02355c3becdf5daa[m
+Merge: 14eb026 5333526
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Feb 19 04:48:16 2018 -0500
+
+    Merge pull request #105 from jakirkham-feedstocks/re-render__master__2.4.5
+    
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+[33mcommit 53335266e3c840e76c45e4552101f7a97d0606aa[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Feb 18 21:00:30 2018 -0500
+
+    MNT: Re-rendered with conda-smithy 2.4.5
+
+[33mcommit 14eb02636608241f33550c480ce734ee82557c60[m
+Author: Patrick Snape <708474+patricksnape@users.noreply.github.com>
+Date:   Fri Dec 22 16:42:12 2017 +0100
+
+    Replace video download with requests (#101)
+    
+    This worked on the 2.x branch so should work here too
+
+[33mcommit 4cb5ad749ff140dc29b8f8c6fa6d85b009024b7e[m
+Merge: 11b94a0 3af426e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Nov 17 18:58:07 2017 -0500
+
+    Merge pull request #95 from jschueller/patch-1
+    
+    Update openblas pin
+
+[33mcommit 3af426ec977c2f2162aadc84534625ab0a3fd1b4[m
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Thu Nov 16 10:29:48 2017 +0100
+
+    Update openblas pin
+
+[33mcommit 11b94a0aad70e975d9bac3d45d31356f9cd88045[m
+Merge: 68adbdb 8949ff9
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Nov 13 10:40:33 2017 -0200
+
+    Merge pull request #94 from ocefpaf/update_pins
+    
+    Update pins
+
+[33mcommit 8949ff91be7289b5f936a30bc7905e25e7ab5ddb[m
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Thu Nov 9 09:08:04 2017 -0200
+
+    Update pins
+
+[33mcommit fa6c351eb2aecb835c8f10142cd8b21b24c4c472[m
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Thu Nov 9 09:07:45 2017 -0200
+
+    rerender
+
+[33mcommit 68adbdbeda6a93dca2bbfe7af1dc1e10ae85d52e[m
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Tue Sep 26 17:26:10 2017 +0200
+
+    Update to 3.3 (#92)
+    
+    * Update to 3.3
+    
+    * MNT: Re-rendered with conda-smithy 2.4.0
+    
+    * Always use cvv
+    
+    * Use CMAKE_PREFIX_PATH
+    
+    * Set HDF5_ROOT
+    
+    * Removed useless config vars
+    
+    * Pin numpy the new way
+    
+    * MNT: Re-rendered with conda-smithy 2.4.0
+    
+    * No msinttypes
+    
+    * Build from numpy >=1.11 on windows/py36
+
+[33mcommit 5ab8aa0dd66d6c5bcca8b595f1f3b99a1d333457[m
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 19:19:14 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+[33mcommit f017e27dc3d9b9d3b84542d8470f3053d60ad03a[m
+Author: Andrew Achkar <hajapy@users.noreply.github.com>
+Date:   Thu Jun 22 10:25:25 2017 -0400
+
+    Fixes cv2.imshow() on linux & win by adding qt5 to build, update ffmpeg pinning (#81)
+    
+    * enables qt5 for linux & win to fix cv2.imshow()
+    
+    * fix ffmpeg pinning
+
+[33mcommit fd8ea90a428a98650f7d864694b926fcc22a2369[m
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Jun 18 06:04:40 2017 -0400
+
+    master: Add NumPy 1.13 (#78)
+    
+    * MNT: Re-rendered with conda-smithy 2.3.1
+    
+    * MNT: Re-rendered with conda-smithy 2.3.1
+    
+    Re-render to add NumPy 1.13 to the CI matrices.
+    
+    * Remove Numpy 1.11 on CircleCI due to timeouts
+
+[33mcommit affaa1a35a3bb7ec4d48e3fcddb25c529b49400b[m
+Author: Christopher Whelan <topherwhelan@gmail.com>
+Date:   Fri Jun 2 11:48:29 2017 -0700
+
+    Upgrade to hdf5 1.8.18 (#76)
+
+[33mcommit fe38cd1c337feef53edb6dd9f6ba4a2dac9065f1[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Sat May 27 21:38:30 2017 +0200
+
+    FFMPEG Attempt 2 (#75)
+    
+    * Bump build number now that FFMPEG will be built
+    * Move ffmpeg test to run_test.py
+    * Add pkgconfig for FFMPEG building
+    FFMPEG test needs __STDC_CONSTANT_MACROS enabled.
+
+[33mcommit 3b832868aa1f8be334de0615afbedf8e4963fd32[m
+Author: Automatic conda-forge administrator <pelson.pub+conda-forge@gmail.com>
+Date:   Thu Apr 13 10:03:58 2017 +0100
+
+    MNT: Updated some of the pinned versions (#67)
+
+[33mcommit bc04ca6ac189aa2e3eb2d0c41bbcfd36f3977e05[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Tue Apr 11 15:05:48 2017 +0200
+
+    Linking against ffmpeg (#66)
+    
+    * Linking against ffmpeg
+    * Add test for importing with FFMPEG
+
+[33mcommit 98fb01736e7b2b2c89ddaf918cc36797e049d354[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Thu Apr 6 09:14:58 2017 +0200
+
+    Add blas feature (#65)
+    
+    * Add blas feature
+    
+    * Incorrect indentation for features
+
+[33mcommit 927b4ca307c207bc2ee63e8e67486ec69b3d1056[m
+Merge: 8a0fe22 135dee2
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Thu Mar 30 15:31:28 2017 -0400
+
+    Merge pull request #50 from patricksnape/v3.2
+    
+    v3.2.0
+
+[33mcommit 135dee2577579024bc83254cf307c667a5d08a17[m
+Merge: 4811d72 8a0fe22
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Wed Mar 29 19:27:01 2017 +0200
+
+    Merge branch 'master' into v3.2
+
+[33mcommit 4811d72c2d47e18a6a76b3839ee4ff461329cebe[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Wed Mar 29 19:23:28 2017 +0200
+
+    Update recipe to v3.2.0
+    
+    Includes quite a number of patches to the Windows builds which
+    I will add upstream patches for after this passes on CI
+
+[33mcommit 16b34d7db8d7d4a98d886b8180127eedb1af6621[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Wed Mar 29 19:22:53 2017 +0200
+
+    Re-render conda smithy [skip ci] [ci skip]
+
+[33mcommit 8a0fe22c4db4a3f7948e912c3c2e6f22adb2b87d[m
+Merge: 04a9471 f5d5e84
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Wed Mar 15 13:23:54 2017 -0400
+
+    Merge pull request #60 from zym1010/add_maintainer
+    
+    add maintainer [ci skip]
+
+[33mcommit f5d5e849239cc422bce896c46225ce41f5d867dc[m
+Author: Yimeng Zhang <zym1010@gmail.com>
+Date:   Tue Mar 14 13:43:16 2017 -0400
+
+    add maintainer [ci skip]
+
+[33mcommit 04a94713af6fccbc6cf3baa59eaf19ff5a8a9622[m
+Merge: 2988a12 410da7e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Mar 14 11:50:22 2017 -0400
+
+    Merge pull request #59 from zym1010/opencv3_numpy112_py36
+    
+    Opencv3 numpy112 py36
+
+[33mcommit 410da7e568c64895917351aea9b13646e6765b9f[m
+Author: Yimeng Zhang <zym1010@gmail.com>
+Date:   Tue Mar 14 00:17:49 2017 -0400
+
+    try to make windows build work
+
+[33mcommit 16d206e6ae72e17d84bc1a990648fd44867153ba[m
+Author: Eendebak <pieter.eendebak@tno.nl>
+Date:   Sun Feb 19 20:47:31 2017 +0100
+
+    MNT: Re-renderer with conda-smithy 2.1.0
+
+[33mcommit 72f722fb1a53bf1339a0c14c3f267fce702a50f3[m
+Author: Pieter <pieter.eendebak@gmail.com>
+Date:   Tue Feb 7 18:07:37 2017 +0100
+
+    add python 3.6 build to travis
+
+[33mcommit 798c91def4be246c4482423fce8867e4f742ebe0[m
+Author: Pieter <pieter.eendebak@gmail.com>
+Date:   Tue Feb 7 18:07:19 2017 +0100
+
+    add python 3.6 build to appveyor
+
+[33mcommit 2988a12d055e946d723d4e2b5efedbd26b7d5e71[m
+Merge: 73672d5 00d6e06
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Jan 9 03:15:29 2017 -0500
+
+    Merge pull request #44 from jschueller/patch-1
+    
+    Use SHLIB_EXT
+
+[33mcommit 00d6e06ffaff9af6ea086edb903031ab2a7d3161[m
+Author: Julien Schueller <schueller@phimeca.com>
+Date:   Sat Jan 7 18:14:33 2017 +0100
+
+    Use SHLIB_EXT
+
+[33mcommit 73672d512bd6ea32098b44d4af507031cfa12233[m
+Merge: c8d7e0b c5ef9ba
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Nov 26 20:13:26 2016 -0500
+
+    Merge pull request #42 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock [ci skip]
+
+[33mcommit c5ef9ba626121b584559b9ded79943c13a3f9dd8[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Nov 26 01:37:18 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 1.5.3.
+
+[33mcommit c8d7e0bea4c7c298a13b339d81088f0f564becf4[m
+Merge: 7b42d1b dfc1471
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sun Oct 16 21:51:48 2016 -0400
+
+    Merge pull request #39 from jakirkham/re-render_master_1.3.3
+    
+    MNT: Re-rendered with conda-smithy 1.3.3 [ci skip]
+
+[33mcommit dfc147156600ba46242329a9b9f894fb9821742e[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sun Oct 16 13:39:41 2016 -0400
+
+    MNT: Re-rendered with conda-smithy 1.3.3
+
+[33mcommit 7b42d1b92e44e7cc66571b33a1a59375ef385453[m
+Merge: 0798fec 1370fbd
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Oct 1 23:12:20 2016 -0400
+
+    Merge pull request #35 from jakirkham/fix_pinning_pr_master
+    
+    Update HDF5 and OpenSSL pinnings
+
+[33mcommit 1370fbdc7bd09a8ed12cfed8833dc16a9769bc2e[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Oct 1 00:43:10 2016 -0400
+
+    recipe: Tidy up selectors.
+
+[33mcommit adfdffd19a0ac77af7e708ccd38601b9dde6cbf2[m
+Merge: 0798fec d9395d5
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat Oct 1 00:42:38 2016 -0400
+
+    Merge remote-tracking branch 'conda-forge-admin/feedstock_version_pin_master' into fix_pinning_pr
+
+[33mcommit 0798fec15d659286f0060d44670c71432b6ae5b8[m
+Merge: 33ba9f3 1cda46e
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Oct 1 00:26:45 2016 -0400
+
+    Merge pull request #32 from jakirkham/re-render_1.3.0_master
+    
+    MNT: rerender with conda-smithy 1.3.0
+
+[33mcommit 1cda46e1c9d5633716310bd3833c40ac656677ea[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Sep 30 20:07:46 2016 -0400
+
+    MNT: rerender with conda-smithy 1.3.0
+
+[33mcommit d9395d5beabae604a8841d087666762595331d1e[m
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Fri Sep 30 02:13:55 2016 +0000
+
+    MNT: Updated some of the pinned versions
+
+[33mcommit 33ba9f37588d6f2f5e7d37f6153a2c4db544dfd4[m
+Merge: 4102961 1bae0b1
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Tue Aug 30 09:26:19 2016 +0100
+
+    Merge pull request #16 from patricksnape/add_v3
+    
+    Add OpenCV3 (3.1.0)
+
+[33mcommit 1bae0b1b93641f2d3fbe615c70b0adc8519c2b2d[m
+Merge: c89fcb7 d2efa91
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Mon Aug 29 17:11:32 2016 +0100
+
+    Merge pull request #4 from jakirkham/add_v3_python_tweaks
+    
+    Add Python tweaks for finding Python
+
+[33mcommit d2efa91adf73e596f967b130628c4d6390f01962[m
+Merge: 8a88c31 d0a9ed1
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Mon Aug 29 09:08:27 2016 -0400
+
+    Merge pull request #1 from patricksnape/add_v3_python_tweaks
+    
+    Fix Windows build script
+
+[33mcommit d0a9ed13b346475dcdfa2f48923463575a1942c9[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Mon Aug 29 12:34:18 2016 +0100
+
+    Fix Windows build script
+    
+    Was missing SET command
+    Also - add SHA256 checking code.
+
+[33mcommit 8a88c310ab31506df46e43dd8b898cb5426db822[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Aug 23 10:06:57 2016 -0400
+
+    recipe: Unixfy paths going to CMake/OpenCV.
+
+[33mcommit 4d679045c0e5ea590c38f9989bcc2147b985d41d[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Aug 23 04:39:52 2016 -0400
+
+    recipe: Fixes for `m` postfix.
+
+[33mcommit 1c194aa98fcfb70f9f147d0df748147c75953e4d[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Aug 23 04:00:38 2016 -0400
+
+    recipe: `\` -> `/` for OpenCV/CMake.
+
+[33mcommit bc08da4a0de14248c180d339eca46a416a480cef[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 22 15:42:44 2016 -0400
+
+    recipe: Simplify Unix build.
+
+[33mcommit 3f7eaed19e6b7d58b2ba5bb536a154fd266670e1[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Aug 22 15:14:32 2016 -0400
+
+    recipe: Forcible disable unsupported Python builds.
+
+[33mcommit c89fcb7c7ab363a23a81b88fe10ee7f915cb3931[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Mon Aug 22 09:08:19 2016 +0100
+
+    Add version number to Win patches
+
+[33mcommit af06037d8a069e7c16a3a7645524b9a5d00b15e9[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Fri Aug 19 09:25:51 2016 +0100
+
+    Fix bad Python syntax
+
+[33mcommit 270bca5d8ac31a7216497646727d850290086584[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Thu Aug 18 17:54:11 2016 +0100
+
+    Use curl rather than wget
+
+[33mcommit 5a9fa7444403a4d57e0549f8c7506de159c861ad[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Mon Aug 15 16:52:39 2016 +0100
+
+    Try calling cmake twice to initialise Python variables
+
+[33mcommit 1c2728a36d08b02a1f4273b73c4754d22ece01f6[m
+Merge: 55137de 1ce3ef1
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Wed Jul 20 15:55:40 2016 +0200
+
+    Merge pull request #2 from jakirkham/fix_python_search
+    
+    Fix Python search
+
+[33mcommit 1ce3ef1d5d86ed98fcdb1a4a0c6b8f7634e0bf55[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Jul 18 17:37:25 2016 -0400
+
+    recipe: Try to find the Python interpreter and library a different way.
+    
+    [skip appveyor]
+
+[33mcommit 55137de9aeff4d53a126e0a1f5ca6b7a1e7adaaf[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Wed Jul 20 15:20:50 2016 +0200
+
+    Update patch comments, remove itseez
+
+[33mcommit d2b5a50dd26fb74e8361e2139306e63840656531[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Wed Jul 20 15:17:48 2016 +0200
+
+    Update to opencv/opencv [ci skip]
+
+[33mcommit 935c05440eee983bcfe3f08eace3fa4345d2b153[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Wed Jul 20 15:17:22 2016 +0200
+
+    Update to opencv/opencv_contrib [ci skip]
+
+[33mcommit 04bed4e8c7550767a1530ee8e1581d0c42d49084[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Wed Jul 20 15:16:35 2016 +0200
+
+    Update to opencv/opencv_contrib [skip ci]
+
+[33mcommit b454247ab54b235e3c7dbaf38015ed9ea341664a[m
+Merge: 6e36fd5 95cb49e
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Mon Jul 18 20:36:18 2016 +0200
+
+    Merge pull request #1 from jakirkham/unpin_travis
+    
+    Unpin conda-build on Travis CI
+
+[33mcommit 95cb49e6044cb6fa055f350bbbd02d701159599f[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Mon Jul 18 10:40:03 2016 -0400
+
+    travis: Unpin `conda-build`. [skip appveyor]
+
+[33mcommit 6e36fd5b5ecc3734685efe7056d55c1bdfbc4dbe[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Mon Jul 18 15:40:11 2016 +0200
+
+    Use toolchain
+    
+    Update pinnings for latest
+
+[33mcommit 55fe95ac3e2ccc1d0a90286ba43ee3a28a9cc666[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Mon Jul 18 15:23:58 2016 +0200
+
+    Minor updates to meta.yaml
+    
+    Add comment about patch being fixed.
+    Remove Eigen as runtime requirement
+    Add two test imports for Python: cv2 and cv2.xfeatures2d
+
+[33mcommit 7d20d10445c6c1c6d600c234a6d108b88cd92ac7[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Mon Jul 18 15:17:30 2016 +0200
+
+    Try new SSL CMake on conda-forge (Unix)
+    
+    [skip appveyor]
+
+[33mcommit 66822331b102fbb1ee541fc03bbd00778f1aeece[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Mon Jul 18 15:13:55 2016 +0200
+
+    Add comments about patches (Windows)
+    
+    Also, simplify robocopy logic.
+    Skip Travis/CircleCI: [ci skip]
+
+[33mcommit 8d1049690ed18a9a05699463989c7a133a11858d[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Mon Jun 6 12:05:21 2016 +0100
+
+    Remove patch_unix file and osx_rpath patch
+    
+    patch_unix was a convert from windows which isn't required.
+    The Rpath patch is already fixed by passing the correct command
+    to cmake and thus the patch isn't necessary.
+    [skip appveyor]
+
+[33mcommit 4320c006e1a396cdc0c93600d3b253d3e7ee339b[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Mon Jun 6 11:47:40 2016 +0100
+
+    Remove unused variable in build.sh [skip appveyor]
+
+[33mcommit aef517ccf22d7ac86ac24032618c0406d8d4debe[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Mon Jun 6 11:40:01 2016 +0100
+
+    Remove pinning to conda-build 1.20.0
+    
+    This recipe uses the new `%VS_VERSION%` env variables which are not provided by 1.20.0.
+
+[33mcommit fcd463395086e50fd2a2a3491782470d4fbf04cd[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Fri Jun 3 11:33:55 2016 +0100
+
+    Add build number
+
+[33mcommit 65c3c94d46d578c9f763f3aca083501500f943ea[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Fri Jun 3 11:32:56 2016 +0100
+
+    Update pinnings to advised by wiki
+
+[33mcommit 20ae02c3c7ded51f207d7fe31ea362fcf8f476d9[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Fri Jun 3 10:51:49 2016 +0100
+
+    Rerender for updated conda-smithy
+
+[33mcommit 174aa7b2489e797a06dfab9630b0961ce5f99ade[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Fri Jun 3 10:49:51 2016 +0100
+
+    Move bioinspire comment out of jinja
+
+[33mcommit ad7f90739f17cdb00f99be1befb9ce905762d13f[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Fri May 27 16:10:36 2016 +0100
+
+    Move HDF5 hack to also happen on Linux
+
+[33mcommit c855ad3152a03ed220271a7dd82c24a80d9922f0[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Fri May 27 09:53:22 2016 +0100
+
+    Reinstate CMAKE IPP hack
+    
+    This should probably be checked out actually. Nevertheless, we can still [skip appveyor].
+
+[33mcommit a7df7bb090ff82d6dae06689d5ca7323daf02045[m
+Author: Patrick Snape <patrick.snape08@imperial.ac.uk>
+Date:   Fri May 27 09:31:34 2016 +0100
+
+    Add git as build dep to ensure newer git is used
+    
+    [skip appveyor] as we know it is fine.
+
+[33mcommit fbe1adcaabac14ffe4a7a9cf01e278297192ca46[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Thu May 26 12:30:55 2016 +0100
+
+    Don't pin conda-build on circleci
+    
+    Otherwise it can't parse the meta.yaml properly
+
+[33mcommit 3c149be0ff399877b24c91f1b037320e14f5b1c1[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Thu May 26 12:19:09 2016 +0100
+
+    Rerender for latest conda-smithy and Python 3 builds
+
+[33mcommit e927f75d3862f4357a4d9a566219fb2685a7a1be[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Thu May 26 12:17:43 2016 +0100
+
+    Fixup OSX recipe on my machine
+    
+    Had to add HDF5 hack which isn't great but it's only for
+    the header files
+
+[33mcommit 7257270e2f2244cd18dda325996d82f5b2297278[m
+Merge: f0251aa 4102961
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Wed May 25 19:57:20 2016 +0100
+
+    Merge branch 'v3' into add_v3
+
+[33mcommit f0251aa2c454759675e96efe614d49f4218cba60[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Wed May 25 19:46:50 2016 +0100
+
+    First attempt at OpenCV3 build
+    
+    Not yet tested on Unix. Should work on Windows.
+
+[33mcommit 4102961589fa4aacce39d1c6d49a2bd2ee90b72e[m
+Merge: 83c2d91 d1a7e3e
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat May 14 20:25:14 2016 -0400
+
+    Merge branch 'conda-forge/master' into 'conda-forge/v2'
+
+[33mcommit d1a7e3e0e52468cbb38bb50eec0dfb259ab03501[m
+Merge: d1f8afe 78f2366
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat May 14 20:24:26 2016 -0400
+
+    Merge pull request #14 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+[33mcommit 83c2d91bb3966ce01c9f9e078b7eb2bd566b4b8d[m
+Merge: d1f8afe ad2eed5
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Sat May 14 20:23:17 2016 -0400
+
+    Merge pull request #15 from conda-forge-admin/feedstock_rerender_v2
+    
+    MNT: Re-render the feedstock
+
+[33mcommit ad2eed5a48aea2cef87b5c6f80633db601799fbe[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat May 14 23:43:19 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+[33mcommit 78f2366092a95e5a3d8587ff026e7856057152fc[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat May 14 23:43:14 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.10.3.
+    
+    [ci skip]
+
+[33mcommit d1f8afe3e814c468b2fcba5e2d8aa426a202f95c[m
+Merge: 0cec072 8477e3f
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed May 11 15:57:09 2016 -0400
+
+    Merge branch 'conda-forge/master' into 'conda-forge/v2'
+
+[33mcommit 0cec0728aa07e2adecaec8e76eae0cb337e5399f[m
+Merge: 97fd9ae 9c3c327
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed May 11 15:56:23 2016 -0400
+
+    Merge pull request #13 from conda-forge-admin/feedstock_rerender_v2
+    
+    MNT: Re-render the feedstock
+
+[33mcommit 8477e3fd2ba232107c82f3c6ebf8930170eebf8e[m
+Merge: 97fd9ae e860a13
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed May 11 15:55:12 2016 -0400
+
+    Merge pull request #12 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+[33mcommit 9c3c327c86a24fe9dac289a04476777c131ddf8b[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed May 11 18:46:00 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.9.2.
+    
+    [ci skip]
+
+[33mcommit e860a132b2bcbace4e82ac998ce3479b75adfcea[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed May 11 18:45:55 2016 +0000
+
+    MNT: Updated the feedstock for conda-smithy version 0.9.2.
+    
+    [ci skip]
+
+[33mcommit 97fd9aef4c085a8d8c34a5516ef709fa0fe787e6[m
+Merge: 4886a93 ab4fda9
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Apr 29 20:04:15 2016 -0400
+
+    Merge pull request #11 from jakirkham/add_msarahan
+    
+    Add @msarahan
+
+[33mcommit ab4fda9c69ade7a54b8cf39c1520928278751729[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Fri Apr 29 19:34:39 2016 -0400
+
+    recipe: Add @msarahan as a maintainer. [ci skip]
+
+[33mcommit 4886a937023b7401b1f37357daa60052bbde740f[m
+Merge: 057e8f3 3fe79af
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Apr 20 17:53:09 2016 -0400
+
+    Merge branch 'conda-forge/master' into 'conda-forge/v2'
+
+[33mcommit 057e8f3497a6bcf8e00ba243bd93613153a8c0ee[m
+Merge: a970579 d647896
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Apr 20 17:51:58 2016 -0400
+
+    Merge pull request #9 from conda-forge-admin/feedstock_version_pin_v2
+    
+    MNT: Update pinned versions.
+
+[33mcommit 3fe79afd0ea1827aa8429fa9d78eccf9fc8d3a2e[m
+Merge: a970579 cae1869
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Wed Apr 20 17:49:00 2016 -0400
+
+    Merge pull request #8 from conda-forge-admin/feedstock_version_pin_master
+    
+    MNT: Update pinned versions.
+
+[33mcommit d6478966b3c1ed6af059f3eca6e77a1073cb8e98[m
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Wed Apr 20 18:08:31 2016 +0100
+
+    MNT: Updated some of the pinned versions
+
+[33mcommit cae18697e527944d6e01ba1487c34564cf70cb3c[m
+Author: conda-forge-admin <conda-forge@googlegroups.com>
+Date:   Wed Apr 20 18:08:27 2016 +0100
+
+    MNT: Updated some of the pinned versions
+
+[33mcommit a9705798607143c825644646b029cd622bb06779[m
+Merge: b7a39eb b40ac12
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Tue Apr 19 23:04:57 2016 -0400
+
+    Merge pull request #4 from jakirkham/fix_64_bit
+    
+    Re-render with conda-smithy 0.9.0 (and @patricksnape's VS9 64bit fixes)
+
+[33mcommit b40ac1262269b515142a8134a169af64a72d1120[m
+Author: John Kirkham <kirkhamj@janelia.hhmi.org>
+Date:   Tue Apr 19 16:27:27 2016 -0400
+
+    Re-render with conda-smithy 0.9.0 (and @patricksnape's VS9 64bit fixes).
+
+[33mcommit b7a39eb07937f4b8a588146e6a59151e64f95dd1[m
+Merge: aa3c3d2 22c1708
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Sat Apr 2 14:33:33 2016 -0400
+
+    Merge pull request #2 from conda-forge-admin/feedstock_rerender_master
+    
+    MNT: Re-render the feedstock
+
+[33mcommit 22c1708f684ffc29bafacab248465352ba620bdf[m
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sat Apr 2 12:48:37 2016 +0100
+
+    MNT: Updated the feedstock for conda-smithy version 0.8.0.
+    
+    [ci skip]
+
+[33mcommit aa3c3d214f7ad23aa152aed8b01b8a4c70ae7cbb[m
+Merge: 1b9a11b e52d2be
+Author: jakirkham <jakirkham@gmail.com>
+Date:   Fri Apr 1 14:19:52 2016 -0400
+
+    Merge pull request #1 from patricksnape/win_use_img_libs
+    
+    Don't build png, jpeg, tiff or zlib
+
+[33mcommit e52d2beda8cd21c15e8653f1a2f8fb7a29757a82[m
+Author: Patrick Snape <patricksnape@gmail.com>
+Date:   Fri Apr 1 20:12:10 2016 +0200
+
+    Don't build png, jpeg, tiff or zlib
+    
+    On Windows
+
+[33mcommit 1b9a11b377ad39d2ce6a6aaf420a5089a28db322[m
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Apr 1 16:54:34 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+[33mcommit 32dbd2444e7b8b4be786ffaf50fece8e6af7ab7f[m
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Fri Apr 1 16:53:41 2016 +0000
+
+    Initial commit of the opencv feedstock.

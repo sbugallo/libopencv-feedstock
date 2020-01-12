@@ -31,7 +31,7 @@ source run_conda_forge_build_setup
 # "recipe/yum_requirements.txt" file. After updating that file,
 # run "conda smithy rerender" and this line will be updated
 # automatically.
-/usr/bin/sudo -n yum install -y mesa-libGL
+/usr/bin/sudo -n yum install -y mesa-libGL http://li.nux.ro/download/nux/dextop/el6/x86_64//x264-libs-0.142-7.20140728gitaf8e768.el6.nux.x86_64.rpm http://li.nux.ro/download/nux/dextop/el6/x86_64//x264-0.142-7.20140728gitaf8e768.el6.nux.x86_64.rpm
 
 
 # make the build number clobber

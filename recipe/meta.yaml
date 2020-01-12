@@ -53,6 +53,9 @@ requirements:
     - m2-patch                       # [win]
     - cmake
     - ninja
+    - gst-plugins-ugly
+    - gst-plugins-good
+    - gst-plugins-bad
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
     - {{ cdt('mesa-libgl-devel') }}  # [linux]
@@ -78,6 +81,9 @@ requirements:
     - qt 5.12.1                      # [not osx]
     - liblapacke
     - freetype
+    - gst-plugins-good
+    - gst-plugins-bad
+    - gst-plugins-ugly
   run:
     # Don't depend on python in the run section
     # py-opencv will depend on python
@@ -91,6 +97,9 @@ requirements:
     - libpng
     - ffmpeg                         # [not win]
     - qt 5.12                        # [not osx]
+    - gst-plugins-good
+    - gst-plugins-bad
+    - gst-plugins-ugly
     # https://github.com/conda-forge/opencv-feedstock/issues/174
     # Seems like the OSX ABI has changed between 2.9 and 2.10???
     # That or a dependency wasn't merged in
@@ -109,6 +118,9 @@ test:
       - cmake
       - ninja
       - qt 5.12.1                     # [linux]
+      - gst-plugins-good
+      - gst-plugins-bad
+      - gst-plugins-ugly
     files:
       - CMakeLists.txt
       - test.cpp

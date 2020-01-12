@@ -64,7 +64,7 @@ cmake -LAH -G "Ninja"                                                           
     -DWITH_1394=0                                                                   ^
     -DWITH_OPENNI=0                                                                 ^
     -DWITH_FFMPEG=1                                                                 ^
-    -DWITH_GSTREAMER=0                                                              ^
+    -DWITH_GSTREAMER=1                                                              ^
     -DWITH_VTK=0                                                                    ^
     -DWITH_QT=5                                                                     ^
     -DINSTALL_C_EXAMPLES=0                                                          ^
